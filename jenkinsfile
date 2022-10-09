@@ -29,8 +29,8 @@ post{
     failure{
         echo 'failure'
     }
-    sucess{
-        echo 'sucess'
+    success{
+        echo 'success'
     }
     aborted{
         echo 'aborted'
