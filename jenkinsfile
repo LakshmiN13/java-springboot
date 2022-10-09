@@ -10,20 +10,11 @@ pipeline{
         stage('qa'){
             steps {
                 echo 'qa..'
+            
             }
-        }
-        stage('staging'){
-            steps{
-                echo 'staging'
-        
-            }
-        }
-        stage('production'){
-            steps{
-                echo 'production.....'
-            }
+    
         }
     }
-
+}
 
     
